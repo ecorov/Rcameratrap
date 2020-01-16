@@ -12,6 +12,9 @@ Description: Correlated random walk of the target animal is simulated within the
     The simulated movement of the default 1-10 individuals generates pseudo camera trap data, which are matched 
     with the real data using the random forest algorithm, in order to find the best fit of animal abundance 
     among the abundance from 1 to 10.
+Imports:
+    sp,
+    randomForest
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
